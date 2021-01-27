@@ -38,8 +38,11 @@ Historical Amazon stock prices in daily frequency in more than 23 years
 
 This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL)Consist of count of various questions of specific libraries for each month
 
-source: https://data.world/shad/covid-19-time-series-data
-source: https://github.com/CSSEGISandData/COVID-19
+- source: https://data.world/shad/covid-19-time-series-data
+- source: https://github.com/CSSEGISandData/COVID-19
+ * added updated dataset. 
+ * added WHO version of Dataset. 
+ https://covid19.who.int/WHO-COVID-19-global-data.csv
 ##  multiples data sources that are aerial bombing operations and weather conditions in world war 2.
 - **Aerial Bombing Operations in World War II
 This dataset consists of digitized paper mission reports from WWII. Each record includes the date, conflict, geographic location, and other data elements to form a live-action sequence of air warfare from 1939 to 1945. The records include U.S. and Royal Air Force data, in addition to some Australian, New Zealand and South African air force missions
