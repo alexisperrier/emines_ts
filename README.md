@@ -62,3 +62,8 @@ Source: https://www.kaggle.com/ucffool/amazon-sales-rank-data-for-print-and-kind
 
 
 Source : https://challengedata.ens.fr/participants/challenges/34/
+
+## Time Series in IOT (Internet of Things)
+
+The government wants to implement a robust traffic system for the city by being prepared for traffic peaks. They want to understand the traffic patterns of the four junctions of the city. Traffic patterns on holidays, as well as on various other occasions during the year, differ from normal working days. This is important to take into account for your forecasting.
+Source : https://www.kaggle.com/vetrirah/ml-iot?select=train_ML_IOT.csv
