@@ -1,3 +1,6 @@
+## Auscafe - Times Series
+source: https://raw.githubusercontent.com/mlmarenchino/forecasting/master/data/auscafe.csv
+
 # emines_ts
  
  **Times series analysis: "Ads.csv" Dataset**
