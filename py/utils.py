@@ -26,7 +26,8 @@ def tsplot(y, lags=None, figsize=(10, 8), style='bmh'):
         smt.graphics.plot_pacf(y, lags=lags, ax=pacf_ax, alpha=0.5)
         sm.qqplot(y, line='s', ax=qq_ax)
         qq_ax.set_title('QQ Plot')
-        scs.probplot(y, sparams=(y.mean(), y.std()), plot=pp_ax)
+        y.hist(bins = 20, ax = pp_ax)
+        # scs.probplot(y, sparams=(y.mean(), y.std()), plot=pp_ax)
 
         plt.tight_layout()
     return
