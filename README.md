@@ -1,72 +1,67 @@
-## Auscafe - Times Series
-source: https://raw.githubusercontent.com/mlmarenchino/forecasting/master/data/auscafe.csv
-
 # emines_ts
- 
- **Times series analysis: "Ads.csv" Dataset**
 
-**Ads** : This dataset provides the number of people seeing an ad every hour.
+This repo holds the students work for the course on times series I gave at [Emines School of Industrial Management](https://www.emines-ingenieur.org/) de l'université Mohammed VI Polytechnique (UM6P) in January 2021.
 
-Please put the dataset in csv format in the /data folder
+The curriculum covered
+- white noise and random walk
+- stationarity, definition
+- Ljung-box, KPSS and ADF statistical tests
+- Autocorrelation (ACF) and partial autocorrelation (PACF)
+- ARIMA models
+- Yule Walker equations
+- Facebook's Prophet
+- Decomposition, seasonal and STL
+- Exponential smoothing, Holt and Holt Winters
+- VAR and the Granger Causality test
 
+We mostly worked with statsmodel python library.
 
-## Mega Millions - Times Series
-![ScreenShot](Mega-Millions.jpg)
+The students were asked to find times series online and apply the concepts and methods on their time own dataset. This way, the students worked on noisy datasets that did not always comply with the theory.
 
-Mega Millions is an American multi-jurisdictional lottery game.
-The csv file contains the winning lottery numbers for Mega Millions from the 17th of May 2002, up until the 30th of June 2020. There are a total of 1889 sets of numbers in the file. The columns are the draw date, the five winning numbers, the 'Mega Ball' number, and from the 18th of January 2011, the 'multiplier'.
+We also worked on the [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)  Kaggle time serie competition. The goal is to predict monthly sales for 1000s of products in many stores. We focused on a few products with large volumes of sales aggregated across the stores.
 
-source: https://www.kaggle.com/carlmcbrideellis/lottery-mega-millions-winning-numbers
+## Resources
 
+We mostly used the excellent and classic book [Forecasting: Principles and Practice](https://otexts.com/fpp2/) by Rob J Hyndman and George Athanasopoulos which is available online for free.
 
-- **DailyDelhiClimateTrain**: This dataset provides data from 1st January 2013 to 24th April 2017 in the city of Delhi, India. The 4 parameters here are
-meantemp, humidity, wind_speed, meanpressure.
+And we worked on the examples and implementations from the following posts
 
-## Airline-Passengers
+* [White Noise and Random Walks in Time Series Analysis](https://www.quantstart.com/articles/White-Noise-and-Random-Walks-in-Time-Series-Analysis/)
 
-source: https://github.com/jbrownlee/Datasets/blob/master/airline-passengers.csv
+* [Algorithm Breakdown: AR, MA and ARIMA models](https://www.ritchievink.com/blog/2018/09/26/algorithm-breakdown-ar-ma-and-arima-models/) by [Ritchie Vink](https://github.com/ritchie46)
 
-## StackOverflow Questions Count Time Series
+* [Time Series Analysis (TSA) in Python - Linear Models to GARCH](http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016#AR) by [@BLACKARBSCEO](https://twitter.com/BLACKARBSCEO) and more particularly on
 
-Consist of count of various questions of specific libraries for each month
-
-source: https://www.kaggle.com/aishu200023/stackindex?select=MLTollsStackOverflow.csv
-
-
-## Historical Amazon stock prices
-
-Historical Amazon stock prices in daily frequency in more than 23 years
-
-## COVID-19 Time Series Data
-
-This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL)Consist of count of various questions of specific libraries for each month
-
-- source: https://data.world/shad/covid-19-time-series-data
-- source: https://github.com/CSSEGISandData/COVID-19
- * added updated dataset. 
- * added WHO version of Dataset. 
- https://covid19.who.int/WHO-COVID-19-global-data.csv
-##  multiples data sources that are aerial bombing operations and weather conditions in world war 2.
-- **Aerial Bombing Operations in World War II
-This dataset consists of digitized paper mission reports from WWII. Each record includes the date, conflict, geographic location, and other data elements to form a live-action sequence of air warfare from 1939 to 1945. The records include U.S. and Royal Air Force data, in addition to some Australian, New Zealand and South African air force missions
-source: https://www.kaggle.com/usaf/world-war-ii
-- **Weather Conditions in World War Two
-The dataset contains information on weather conditions recorded on each day at various weather stations around the world. Information includes precipitation, snowfall, temperatures, wind speed and whether the day included thunder storms or other poor weather conditions.
-source: https://www.kaggle.com/smid80/weatherww2
+    - Autoregressive Models - AR(p)
+    - Moving Average Models - MA(q)
+    - Autoregressive Moving Average Models - ARMA(p, q)
+    - Autoregressive Integrated Moving Average Models - ARIMA(p, d, q)
 
 
-## Amazon sales rank data for print and kindle books
+* [Open Machine Learning Course. Topic 9. Part 1. Time series analysis in Python]
+(https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3) by [Dmitry Sergeyev](https://github.com/DmitrySerg).
 
-Source: https://www.kaggle.com/ucffool/amazon-sales-rank-data-for-print-and-kindle-books
+More specifically, the following part:
 
-## Wind Power forecasting for the day-ahead energy market by "Compagnie Nationale du Rhône" : 
-   
-   Predict the energy production of six WF (wind farm) owned by CNR. Each WF production will be individually predicted, using meteorological forecasts as input. Predictions will focus on the day-ahead energy production (hourly production forecasts from day D+1 00h to day D+2 00h).
+    — Rolling window estimations
+    — Exponential smoothing, Holt-Winters model
+    — Time-series cross validation, parameters selection
 
+* [Time Series Analysis in Python](https://www.machinelearningplus.com/time-series/time-series-analysis-python/)
 
-Source : https://challengedata.ens.fr/participants/challenges/34/
+* [How to Decompose Time Series Data into Trend and Seasonality](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/)
 
-## Time Series in IOT (Internet of Things)
+* [A Gentle Introduction to Exponential Smoothing for Time Series Forecasting in Python](https://machinelearningmastery.com/exponential-smoothing-for-time-series-forecasting-in-python/) by Jason Brownlee
 
-The government wants to implement a robust traffic system for the city by being prepared for traffic peaks. They want to understand the traffic patterns of the four junctions of the city. Traffic patterns on holidays, as well as on various other occasions during the year, differ from normal working days. This is important to take into account for your forecasting.
-Source : https://www.kaggle.com/vetrirah/ml-iot?select=train_ML_IOT.csv
+* [A Multivariate Time Series Guide to Forecasting and Modeling](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/) for VAR models.
+
+* [Forecasting with sktime](https://github.com/alan-turing-institute/sktime/blob/master/examples/01_forecasting.ipynb)
+
+We did not have time to explore [sktime](https://github.com/alan-turing-institute/sktime) a very promising "unified framework for machine learning with time series"
+
+## Youtube
+
+I recommend this excellent Youtube channel
+
+* [Morten Nyboe Tabor](https://www.youtube.com/c/MortenNyboeTabor/videos)
+Econometrics II course at the Economics program, University of Copenhagen.

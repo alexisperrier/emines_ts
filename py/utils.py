@@ -1,3 +1,9 @@
+'''
+This code is directly inspired from http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016#AR
+
+I just changed the probability plot by the histogram
+'''
+
 import pandas as pd
 import numpy as np
 
@@ -7,6 +13,8 @@ import scipy.stats as scs
 
 
 import matplotlib.pyplot as plt
+
+
 
 def tsplot(y, lags=None, figsize=(10, 8), style='bmh'):
     if not isinstance(y, pd.Series):
