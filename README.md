@@ -38,8 +38,7 @@ And we worked on the examples and implementations from the following posts
     - Autoregressive Integrated Moving Average Models - ARIMA(p, d, q)
 
 
-* [Open Machine Learning Course. Topic 9. Part 1. Time series analysis in Python]
-(https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3) by [Dmitry Sergeyev](https://github.com/DmitrySerg).
+* [Open Machine Learning Course. Topic 9. Part 1. Time series analysis in Python](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3) by [Dmitry Sergeyev](https://github.com/DmitrySerg).
 
 More specifically, the following part:
 
